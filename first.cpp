@@ -2,5 +2,5 @@
 using namespace std;
 int main()
 {
-    cout << " y'all beter come here and get one of these";
+    cout << " y'all better come here and get one of these";
 }
