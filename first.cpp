@@ -3,5 +3,12 @@ using namespace std;
 int main()
 {
     
-    cout<< " enter name: ";
+    int a, b;
+    cout<< " enter a: ";
+    cin>> a; 
+    cout<< " enter b: ";
+    cin>> b;
+    int sum = a+b;
+    cout<<  sum ;
+
 } 
