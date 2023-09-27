@@ -13,10 +13,10 @@ using namespace std;
 //  }
 
 {
-  int number;
+  string number;
   cout<< " Enter a number: ";
   cin >> number;
-  cout<< number + " is the number you entered " << endl;
+  cout<< " You entered, " + number << endl;
   cerr<< " This is an example of an error message";
   
 }
