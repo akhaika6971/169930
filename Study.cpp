@@ -103,3 +103,78 @@ int main()
   }
 
 } */
+
+
+//formula for area of volume of a cylinder(from sample CAT)
+/* #include <iostream>
+using namespace std;
+int main()
+{
+float PI, r, h;
+char answer;
+PI=3.141592;
+cout<<"Enter radius: ";
+cin>>r;
+cout<<"Enter height: ";
+cin>>h;
+cout<<"Choose answer(v, a): ";
+cin>> answer;
+
+if(answer =='a')
+  {
+  cout<<"Area: "<< (2*PI*r*h)+(2*PI*r*r) <<endl;
+  }
+  else if(answer =='v')
+  {
+    cout<<"Volume: "<< PI*r*r*h << endl;
+  }
+  else
+  {
+    cout<<"ERROR!!";
+  }
+
+} */
+
+
+//convert fahrenheit to celcius
+/* #include <iostream>
+using namespace std;
+int main()
+{
+float f, celcius;
+cout<<"Enter fahrenheit: ";
+cin>>f;
+cout<< "Celcius: "<< 5.0/9.0 * (f-32) <<endl;
+} */
+
+
+//find greater number
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  int a, b, c;
+  cout<< "Enter first number: ";
+  cin>>a;
+  cout<<"Enter second number: ";
+  cin>>b;
+  cout<<"Enter third number: ";
+  cin>>b;
+  if(a>b || a>c)
+  {
+cout<<"The greatest of the three is: "<<a<<endl;
+  }
+  else if(b>a || b>c)
+  {
+    cout<<"The greatest of the three is: "<<b<<endl;
+  }
+  else if (c>a || c>b)
+  {
+    cout<< "The greatest of the three is: "<<c<<endl;
+  }
+  else
+  {
+    cout<<"ERROR!!";
+    exit(0);
+  }
+} */
