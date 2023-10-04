@@ -3,7 +3,7 @@
 #error GeeksforGeeks not found !
 #endif */
 
-//class work from notes.Calculate area of a rectangle
+//class work from notes, Calculate area of a rectangle, user input
 /* #include <iostream>
 using namespace std ;
 int main ()
@@ -18,7 +18,7 @@ int main ()
 } */
 
 
-//class work from notes. Calculator
+//class work from notes. Calculator, user input
 /* #include <iostream>
 using namespace std;
 int main()
@@ -53,7 +53,7 @@ int main()
 } */
 
 
-//practice program 
+//practice program, user input
 /* #include <iostream>
 using namespace std;
 int main()
@@ -105,7 +105,7 @@ int main()
 } */
 
 
-//formula for area of volume of a cylinder(from sample CAT)
+//formula for area of volume of a cylinder(from sample CAT)user input
 /* #include <iostream>
 using namespace std;
 int main()
@@ -136,7 +136,7 @@ if(answer =='a')
 } */
 
 
-//convert fahrenheit to celcius
+//convert fahrenheit to celcius, user input
 /* #include <iostream>
 using namespace std;
 int main()
@@ -144,12 +144,13 @@ int main()
 float f, celcius;
 cout<<"Enter fahrenheit: ";
 cin>>f;
-cout<< "Celcius: "<< 5.0/9.0 * (f-32) <<endl;
+//celcius= 5.0/9.0*(f-32)
+cout<< "Celcius: "<< 5.0/9.0 * (f-32)//celcius <<endl;
 } */
 
 
-//find greater number
-/* #include <iostream>
+//find greater number of three, user inputs
+ #include <iostream>
 using namespace std;
 int main()
 {
@@ -159,22 +160,18 @@ int main()
   cout<<"Enter second number: ";
   cin>>b;
   cout<<"Enter third number: ";
-  cin>>b;
-  if(a>b || a>c)
+  cin>>c;
+  if(a>=b && a>=c)
   {
-cout<<"The greatest of the three is: "<<a<<endl;
+    cout<<"The greatest of the three is: "<< a;
   }
-  else if(b>a || b>c)
+  else if(b>=a && b>=c)
   {
-    cout<<"The greatest of the three is: "<<b<<endl;
+    cout<<"The greatest of the three is: "<< b ;
   }
-  else if (c>a || c>b)
+  else 
   {
-    cout<< "The greatest of the three is: "<<c<<endl;
+    cout<<"The greatest of the three is: "<<c ;
   }
-  else
-  {
-    cout<<"ERROR!!";
-    exit(0);
-  }
-} */
+
+} 
