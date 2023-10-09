@@ -150,7 +150,7 @@ cout<< "Celcius: "<< 5.0/9.0 * (f-32)//celcius <<endl;
 
 
 //find greater number of three, user inputs
- #include <iostream>
+ /* #include <iostream>
 using namespace std;
 int main()
 {
@@ -174,4 +174,4 @@ int main()
     cout<<"The greatest of the three is: "<<c ;
   }
 
-} 
+}  */
