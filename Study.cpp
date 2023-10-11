@@ -137,7 +137,7 @@ if(answer =='a')
  */
 
 //convert fahrenheit to celcius, user input
- /* #include <iostream>
+  /* #include <iostream>
 using namespace std;
 int main()
 {
@@ -147,7 +147,7 @@ cin>>f ;
 celcius =5.0/9.0 * (f-23);
 //celcius= 5.0/9.0*(f-32)
 cout<< "Celcius: "<<celcius; //celcius <<endl;
-}  */
+}   */
 
 
 //find greater number of three, user inputs
