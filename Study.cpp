@@ -106,7 +106,7 @@ int main()
 
 
 //formula for area of volume of a cylinder(from sample CAT)user input
- /* #include <iostream>
+   /* #include <iostream>
 using namespace std;
 int main()
 {
@@ -133,20 +133,21 @@ if(answer =='a')
     cout<<"ERROR!!";
   }
 
-}  */
-
+}   
+ */
 
 //convert fahrenheit to celcius, user input
-/* #include <iostream>
+ /* #include <iostream>
 using namespace std;
 int main()
 {
 float f, celcius;
 cout<<"Enter fahrenheit: ";
-cin>>f;
+cin>>f ;
+celcius =5.0/9.0 * (f-23);
 //celcius= 5.0/9.0*(f-32)
-cout<< "Celcius: "<< 5.0/9.0 * (f-32)//celcius <<endl;
-} */
+cout<< "Celcius: "<<celcius; //celcius <<endl;
+}  */
 
 
 //find greater number of three, user inputs
@@ -177,7 +178,7 @@ int main()
 }  */
 
 //calculate tax payable and net salary of employee.No user input
-/* #include <iostream>
+ /* #include <iostream>
 using namespace std;
 int main()
 {
@@ -187,4 +188,20 @@ int main()
   netsalary = grosssalary - taxpayable;
   cout<<"Tax payable: " << taxpayable <<endl;
   cout<<"Net salary: " << netsalary<<endl;
+}  */
+
+/* #include <iostream>
+using namespace std;
+
+int main () {
+  float r,h,a,v,PI;
+PI = 3.142;
+cout<<"enter radius: ";
+cin>>r;
+cout<<"enter height:";
+cin>>h;
+a=(2*PI*r*h)+(2*PI*r*h);
+v=(PI*r*r*h);
+cout<<"area is :"<<a<<endl;
+cout<<"volume is: "<<v<<endl;
 } */
