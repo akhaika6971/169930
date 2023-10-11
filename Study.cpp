@@ -106,7 +106,7 @@ int main()
 
 
 //formula for area of volume of a cylinder(from sample CAT)user input
-/* #include <iostream>
+ /* #include <iostream>
 using namespace std;
 int main()
 {
@@ -133,7 +133,7 @@ if(answer =='a')
     cout<<"ERROR!!";
   }
 
-} */
+}  */
 
 
 //convert fahrenheit to celcius, user input
@@ -175,3 +175,16 @@ int main()
   }
 
 }  */
+
+//calculate tax payable and net salary of employee.No user input
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  int grosssalary, netsalary, taxpayable;
+  grosssalary = 10000;
+  taxpayable = (grosssalary/100) * 25;
+  netsalary = grosssalary - taxpayable;
+  cout<<"Tax payable: " << taxpayable <<endl;
+  cout<<"Net salary: " << netsalary<<endl;
+} */
