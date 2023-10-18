@@ -4,7 +4,7 @@
 #endif */
 
 //class work from notes, Calculate area of a rectangle, user input
-/* #include <iostream>
+ /* #include <iostream>
 using namespace std ;
 int main ()
 {
@@ -15,15 +15,15 @@ int main ()
     cin >> width;
     area= length * width;
     cout<< area;
-} */
-
+} 
+ */
 
 //class work from notes. Calculator, user input
-/* #include <iostream>
+ /* #include <iostream>
 using namespace std;
 int main()
 {
-    float a, b , sum, mult, sub, div;
+    float a, b , sum, mult, sub, div; //can write float a=2, b=3 blah blah blah. wriete full names instead of characters.
     char fucntionsymbol;
     cout<<"Enter first number: ";
     cin>> a;
@@ -50,8 +50,8 @@ int main()
      else {
         cout<< "Function symbol is not recognized!!";
      }
-} */
-
+} 
+ */
 
 //practice program, user input
 /* #include <iostream>
@@ -205,3 +205,33 @@ v=(PI*r*r*h);
 cout<<"area is :"<<a<<endl;
 cout<<"volume is: "<<v<<endl;
 } */
+
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  string name;
+  cout<<"Enter Name: ";
+  cin>> name;
+  cout<<"Good morning "<< name << endl;
+} */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int Firstnumber, Secondnumber, add, subtract, multiply, divide; //declare variables
+  cout<< "Enter  first number:";
+  cin>>Firstnumber;// prompt user to input first number
+  cout<<"Enter second number: ";
+  cin>> Secondnumber;// prompt user for second number
+  add = Firstnumber+Secondnumber;
+  multiply = Firstnumber*Secondnumber;
+  subtract= Firstnumber-Secondnumber;
+  divide= Firstnumber/Secondnumber;
+  cout<<"Addition = "<<add<< endl;
+  cout<<"Subtraction = "<< subtract<< "\n";
+  cout<<"Multiplication = "<< multiply<<endl;
+  cout<<"Division = "<< divide;
+  return 0;
+} 
