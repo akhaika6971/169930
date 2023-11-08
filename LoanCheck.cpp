@@ -1,29 +1,27 @@
 #include<iostream>
 using namespace std;
 int main(){
-int age;
-string name;
-string status;
-float bank_balance;
-int customer_period;
+int Age;
+string Name;
+string Status;
+float Bank_balance;
+int Customer_period;
  cout<<"Enter name: ";
- cin>>name;
+ cin>>Name;
  cout<<"Enter age:";
- cin>>age;
+ cin>>Age;
  cout<<"Enter status:";
- cin>>status;
+ cin>>Status;
  cout<<"Enter bank_balance: ";
- cin>> bank_balance;
+ cin>> Bank_balance;
  cout<<"Enter period: ";
- cin>>customer_period;
- if(age>22&&status=="good"&&bank_balance>50000&&customer_period>6)
+ cin>>Customer_period;
+ if(Age>22&&Status=="good"&&Bank_balance>50000&&Customer_period>6)
  {
-    cout<<"Qualified";
+    cout<<"You qualify for a loan.";
  }
 else{
-    cout<<"Not qualified";
+    cout<<"You do not qualify for a loan.";
 }
  return 0;
-
-
 }

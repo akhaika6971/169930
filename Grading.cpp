@@ -2,33 +2,33 @@
 using namespace std;
 int main()
 {
-    string first_name, second_name;
-    string course;
-    float score;
+    string First_name, Second_name;
+    string Course;
+    float Score;
     cout<<"Enter First name: ";
-    cin>>first_name;
-    cout<<"Enter second name: ";
-    cin>>second_name;
-    cout<<"Enter course: ";
-    cin>>course;
-    cout <<"Enter score: ";
-    cin>>score;
-    if(score>= 70){
-        cout<<first_name << second_name<<" Your grade is an 'A'.";
+    cin>>First_name;
+    cout<<"Enter Second name: ";
+    cin>> Second_name;
+    cout<<"Enter Course: ";
+    cin>>Course;
+    cout <<"Enter Score(Between 0-100): ";
+    cin>>Score;
+    if(Score>= 70){
+        cout<<First_name << Second_name<<" Your grade is an 'A'.";//1st if block executed
     }
-    else if(score>=60&&score<=69){
-        cout<<first_name << second_name<<" Your grade is 'B'.";
+    else if(Score>=60&&Score<=69){
+        cout<<First_name << Second_name<<" Your grade is 'B'."; //executed if the 1st condition is not met
     }
-   else if(score>=50&&score<=59){
-    cout<<first_name << second_name<<" Your grade is 'C'.";
+   else if(Score>=50&&Score<=59){
+    cout<<First_name << Second_name<<" Your grade is 'C'.";
    }
-   else if(score>=40&&score<=49){
-    cout<<first_name << second_name<<" Your grade is 'C'";
+   else if(Score>=40&&Score<=49){
+    cout<<First_name << Second_name<<" Your grade is 'C'";
    }
-   else if(score<40){
-    cout<<first_name << second_name<<" Your grade is 'D'.";
+   else if(Score<40){
+    cout<<First_name << Second_name<<" Your grade is 'D'.";
    }
-   else{
-    cout<<"Invalid score.";
+   else{                                                     //executed if none of the above conditions are met
+    cout<<"Invalid Score.";
    }
 }

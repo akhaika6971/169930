@@ -2,18 +2,19 @@
 using namespace std;
 int main()
 {
-    string first_name, second_name,course;
-    int score;
+    string First_name, Second_name,Course;
+    int Score;
     cout<<"Enter frist name: ";
-    cin>>first_name;
+    cin>>First_name;
     cout<<"Enter second name: ";
-    cin>>second_name;
+    cin>>Second_name;
     cout<<"Enter course: ";
-    cin>>course;
-    cout<<"Enter score: ";//prompt user for score input.Program is for score between 0 to 100
-    cin>>score;
-    switch(score/10){   //put score over 10 to work with smaller numbers. dividing 60-69(6) by 10 still gives 6 even if with remainders so you get the grading for 60
+    cin>>Course;
+    cout<<"Enter score(Between 0-100): ";//prompt user for score input.Program is for score between 0 to 100
+    cin>>Score;
+    switch(Score/10){   //score divided by 10. all variatiosn of 80, 60 etc, divide by 10 give a number between 1-10 even with a reminder so it meets the conditions
         case 10:
+        case 8:
         case 7:
         cout<<"Your grade is an 'A'.";
         break;
@@ -27,9 +28,10 @@ int main()
         case 3:
         case 2:
         case 1:
+        case 0:
         cout<<"Your grade is 'D'";
         break;
         default:
-        cout<<"Invalid";
+        cout<<"Invalid score.";
     }
 }

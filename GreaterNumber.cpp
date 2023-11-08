@@ -1,22 +1,30 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
-int main()
-{
-int num1,num2;
-cout<<"Enter first number: ";
-cin>>num1;
-cout<<"Enter second number: ";
-cin>>num2;
-switch(num1>num2){
-case 0:
-cout<<num2<<" is the greater number.";
-break;
-case 1:
-cout<<num1<<" is the greater number.";
-break;
-default:
-cout<<"Invalid.";
-}
-
+int main() {
+    int Num1, Num2, Max;
+    cout << "Enter the first number: ";
+    cin >> Num1;
+    cout << "Enter the second number: ";
+    cin >> Num2;
+    Max = (Num1 > Num2) ? Num1 : Num2;
+    switch (Max) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            cout << "The maximum number is: "<< Max << endl;
+            break;
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10:
+            cout << "The maximum number is: "<< Max << endl;
+            break;
+        default:
+            cout << "The maximum number is: "<< Max << endl;
+            break;
+    }
+    return 0;
 }

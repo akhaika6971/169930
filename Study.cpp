@@ -236,7 +236,7 @@ int main()
   return 0;
 }  */
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 //global variable declartaion
 int globalvar=8; 
@@ -258,4 +258,15 @@ int main()
   cout << "Global variable value = "<< globalvar; //-- this does not work because the variable is unidentified
   //cout << "Age ="<<age;
 return 0;
-}
+} */
+
+/* switch(num1>num2){
+case 0:
+cout<<num2<<" is the greater number.";
+break;
+case 1:
+cout<<num1<<" is the greater number.";
+break;
+default:
+cout<<"Invalid.";
+} */
