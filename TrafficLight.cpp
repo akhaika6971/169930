@@ -14,15 +14,15 @@ switch(1){
     {
         changeColor(04);//color 0 is black for background and 4 is red for text same for the rest of the colors used later in the code
         cout<<"STOP!\n";
-        sleep(10);
+        sleep(3);
 
         changeColor(06);
         cout<<"GET READY!\n";
-        sleep(5);
+        sleep(3);
 
         changeColor(02);
         cout<<"GO!";
-        sleep(5);
+        sleep(3);
         break;
     }
 default:{

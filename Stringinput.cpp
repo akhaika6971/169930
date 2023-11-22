@@ -7,4 +7,4 @@ int main()
     getline(cin, strl);
     cout<<strl;
     return 0;
-}
+}   

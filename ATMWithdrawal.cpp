@@ -23,6 +23,6 @@ int main()
    
     }
     else{
-        cout<<"Insufficient funds!";                      //executed when noe of the above conditions are not met
+        cout<<"Insufficient funds!";                      //executed when none of the above conditions are met
         }
 }
